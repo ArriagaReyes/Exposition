@@ -1,5 +1,5 @@
 {
-  "name": "Recycled",
+  "name": "react-recycled",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,9 +7,10 @@
     "app": "webpack serve --config webpack.config.js"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6",
-    "babel-loader": "^8.2.2",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
     "css-loader": "^6.3.0",
     "html-webpack-plugin": "^5.3.2",
     "nodemon": "^2.0.13",
@@ -21,5 +22,9 @@
     "webpack": "^5.56.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
